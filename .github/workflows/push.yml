@@ -16,7 +16,7 @@ env:
   BUILD_CONFIGURATION: Release
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   build:
@@ -93,7 +93,7 @@ jobs:
       
     - name: addName
       working-directory: ${{env.GITHUB_WORKSPACE}}
-      run: git config --global user.name "Sayona Sebastian Nettikadan"
+      run: git config --global user.name "nettiksn"
       
     - name: add
       working-directory: ${{env.GITHUB_WORKSPACE}}
