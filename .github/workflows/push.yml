@@ -93,7 +93,7 @@ jobs:
       
     - name: addName
       working-directory: ${{env.GITHUB_WORKSPACE}}
-      run: git config --global user.name "nettiksn"
+      run: git config --global user.name "Sayona Sebastian Nettikadan"
       
     - name: add
       working-directory: ${{env.GITHUB_WORKSPACE}}
