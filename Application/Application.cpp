@@ -9,6 +9,8 @@ CoolClass::CoolClass(void)
 {
 }
 
+hellofromtheotherside
+
 int CoolClass::Calc(int a, int b)
 {
     if (a == b)
